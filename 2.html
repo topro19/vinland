@@ -56,7 +56,7 @@
     <title>Kaasboerderij De Westplaat | Ambachtelijke Kaas &amp; Zuivel</title>
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link
-        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,400&amp;display=swap"
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&amp;family=Nunito:ital,wght@0,200..1000;1,200..1000&amp;display=swap"
         rel="stylesheet">
     <link
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
@@ -134,15 +134,15 @@
                         "gutter": "24px"
                     },
                     "fontFamily": {
-                        "label-sm": ["Nunito Sans"],
-                        "display-lg": ["Nunito Sans"],
-                        "display-lg-mobile": ["Nunito Sans"],
-                        "body-lg": ["Nunito Sans"],
-                        "headline-xl": ["Nunito Sans"],
-                        "headline-md": ["Nunito Sans"],
-                        "headline-lg": ["Nunito Sans"],
-                        "label-lg": ["Nunito Sans"],
-                        "body-md": ["Nunito Sans"]
+                        "label-sm": ["'Nunito Sans'", "sans-serif"],
+                        "display-lg": ["Nunito", "sans-serif"],
+                        "display-lg-mobile": ["Nunito", "sans-serif"],
+                        "body-lg": ["'Nunito Sans'", "sans-serif"],
+                        "headline-xl": ["Nunito", "sans-serif"],
+                        "headline-md": ["Nunito", "sans-serif"],
+                        "headline-lg": ["Nunito", "sans-serif"],
+                        "label-lg": ["'Nunito Sans'", "sans-serif"],
+                        "body-md": ["'Nunito Sans'", "sans-serif"]
                     },
                     "fontSize": {
                         "label-sm": ["12px", { "lineHeight": "1.2", "fontWeight": "600" }],
@@ -622,11 +622,10 @@
             <div class="max-w-7xl mx-auto px-margin-mobile md:px-margin-desktop relative z-10">
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-xl items-start">
                     <!-- Hours -->
-                    <div class="bg-white p-xl rounded-2xl premium-shadow artisanal-border space-y-lg">
+                    <div class="bg-white p-margin-mobile md:p-xl rounded-2xl premium-shadow artisanal-border space-y-lg">
                         <div class="flex items-center gap-md">
-                            <span class="material-symbols-outlined text-primary text-4xl">schedule</span>
-                            <h2 class="font-headline-lg text-headline-lg text-primary">Openingstijden Boerderijwinkel
-                            </h2>
+                            <span class="material-symbols-outlined text-primary text-4xl flex-shrink-0">schedule</span>
+                            <h2 class="font-headline-md text-headline-md md:font-headline-lg md:text-headline-lg text-primary">Openingstijden Boerderijwinkel</h2>
                         </div>
                         <div class="space-y-sm">
                             <div class="flex justify-between items-center py-sm border-b border-outline-variant/20">
@@ -659,11 +658,11 @@
                     <!-- Location -->
                     <div class="space-y-lg">
                         <div class="flex items-center gap-md">
-                            <span class="material-symbols-outlined text-primary text-4xl">location_on</span>
-                            <h2 class="font-headline-lg text-headline-lg text-primary">Kom langs bij onze boerderij</h2>
+                            <span class="material-symbols-outlined text-primary text-4xl flex-shrink-0">location_on</span>
+                            <h2 class="font-headline-md text-headline-md md:font-headline-lg md:text-headline-lg text-primary">Kom langs bij onze boerderij</h2>
                         </div>
                         <div class="space-y-md">
-                            <div class="p-lg bg-white rounded-xl artisanal-border premium-shadow">
+                            <div class="p-margin-mobile md:p-lg bg-white rounded-xl artisanal-border premium-shadow">
                                 <p class="font-headline-md text-on-surface">Heuvelweg 15</p>
                                 <p class="font-body-lg text-on-surface-variant">3245 LN Sommelsdijk</p>
                                 <div class="mt-md pt-md border-t border-outline-variant/20 flex flex-wrap gap-md">
@@ -772,9 +771,6 @@
                         <a class="block px-md py-sm rounded-lg hover:bg-white/10 transition-colors text-white" href="7.html">Vlees</a>
                         <a class="block px-md py-sm rounded-lg hover:bg-white/10 transition-colors text-white" href="8.html">Verkooppunten</a>
                         <a class="block px-md py-sm rounded-lg hover:bg-white/10 transition-colors text-white" href="9.html">Contact &amp; Route</a>
-                        <a class="block px-md py-sm rounded-lg hover:bg-white/10 transition-colors text-white" href="9.html">Bestellen &amp; Afhalen</a>
-                        <a class="block px-md py-sm rounded-lg hover:bg-white/10 transition-colors text-white" href="#">Algemene Voorwaarden</a>
-                        <a class="block px-md py-sm rounded-lg hover:bg-white/10 transition-colors text-white" href="#">Privacy Policy</a>
                     </div>
                 </div>
                 <!-- Column 3: Contact & Hours -->
